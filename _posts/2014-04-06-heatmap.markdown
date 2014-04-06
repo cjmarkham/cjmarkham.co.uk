@@ -1,0 +1,12 @@
+---
+layout: project
+title:  "Heat Map"
+url: ""
+date:   2014-04-06 21:00:00
+permalink: "projects/heat-map"
+tags: sockets nodejs canvas
+---
+
+The purpose of this software was to enable site owners to see the behaviour of visitors.
+
+The software features an admin panel which displays all of the visitors clicks in a heat map, so you can see exactly where you get the most clicks on the page.

@@ -1,0 +1,12 @@
+---
+layout: project
+title:  "Pokedex"
+url: ""
+date:   2014-04-06 21:00:00
+permalink: "projects/pokedex"
+tags: javascript canvas webgl
+---
+
+Furthering my experience with 3D model rendering within the browser I decided to give the Pokedex a go.
+
+Unfortunately there aren't many models for pokemon available so I was unable to fill it.

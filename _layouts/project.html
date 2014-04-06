@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="row" id="project-page">
+	<div class="col-md-3">
+		<img src="/images/projects/{{ page.title }}.png" alt="{{ page.title }}" id="project-image" />
+	</div>
+
+	<div class="col-md-9">
+		<p id="project-description">
+			{{ content }}
+		</p>
+
+		{% for tag in page.tags %}
+			<a class="green" href="javascript:void(0)">
+				{{ tag }}
+			</a>
+		{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,5 @@
+name: Cjmarkham.co.uk
+markdown: redcarpet
+pygments: true
+
+gems: ['jekyll-less']

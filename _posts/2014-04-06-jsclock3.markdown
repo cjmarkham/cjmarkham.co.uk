@@ -1,0 +1,13 @@
+---
+layout: project
+title:  "JS Clock 3"
+url: ""
+date:   2014-04-06 21:00:00
+permalink: "projects/js-clock-3"
+tags: Canvas HTML5 javascript
+---
+
+Although I had used Math based programming on the other clock, I decided to do another one but with a difference.
+
+
+The design is based on a clock available on Android.

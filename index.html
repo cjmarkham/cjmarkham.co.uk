@@ -1,0 +1,29 @@
+---
+layout: default
+title: Home
+---
+
+{% for project in site.posts %}
+	<div class="col-md-3">	
+		<div class="project text-center animated animation-delay-3 bounceInLeft">
+			<a href="{{ project.url }}">
+				<img src="/images/projects/{{ project.title }}.png" alt="{{ project.title }}" title="{{ project.title }}" />
+			</a>
+
+			<h4>
+				<a href="{{ project.url }}">
+					{{ project.title }}
+				</a>
+			</h4>
+			{{ project.excerpt }}
+
+			<footer class="tags">
+				{% for tag in project.tags %}
+					<a class="green" href="javascript:void(0)">
+						{{ tag }}
+					</a>
+				{% endfor %}
+			</footer>	
+		</div>
+	</div>
+{% endfor %}
