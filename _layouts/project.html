@@ -16,5 +16,11 @@ layout: default
 				{{ tag }}
 			</a>
 		{% endfor %}
+
+		{% if page.url %}
+			<a class="blue" href="{{ page.url }}" target="_blank">
+				Visit project
+			</a>	
+		{% endif %}
 	</div>
 </div>
