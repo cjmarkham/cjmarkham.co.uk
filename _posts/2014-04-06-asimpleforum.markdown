@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "A Simple Forum"
-url: "http://asimpleforum.co.uk"
+link: "http://asimpleforum.co.uk"
 date:   2014-04-06 22:40:04
 permalink: "projects/a-simple-forum"
 tags: php mysql javascript
