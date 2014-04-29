@@ -1,0 +1,11 @@
+---
+layout: project
+title:  "Mike"
+url: "http://jsframework.cjmarkham.co.uk"
+date:   2014-04-29 21:00:00
+permalink: "projects/mike"
+tags: javascript
+---
+
+This is a project I started to get a group of modules together. Its purpose it to have a library of modules
+for common javascript methods without having to rely on third party libraries like jQuery or Mootools.
